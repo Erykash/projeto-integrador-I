@@ -1,11 +1,11 @@
 # projeto-integrador-I
 
-COLETA DE DADOS:
+## COLETA DE DADOS:
 
 Iniciando na coleta dos dados históricos das ações da Petrobras (PETR4.SA e PETR3.SA), do par de moedas USD/BRL e do índice BOVA11.SA, no período de 2020 a novembro de 2023, usando fontes de dados API´S, que são usadas para integrar novas aplicações com sistemas de software existentes, como Yahoo Finance de dados financeiros, utilizada para essa coleta de dados especifica.
 
 
-ANÁLISE DESCRITIVA:
+## ANÁLISE DESCRITIVA:
 
 Uma análise descritiva dos dados coletados para entender as tendências passadas e a volatilidade de cada ativo.
 
@@ -27,7 +27,7 @@ Porcentagens ( 25%, 50%, 75%):
 Representamos os valores abaixo dos quais uma determinada porcentagem dos dados está contida. Por exemplo, o valor do terceiro quartil (75%) para o BOVA11.SA é aproximadamente 112,80, indicando que 75% dos preços de fechamento estão abaixo desse valor.
 Essas estatísticas fornecem uma visão geral da distribuição dos preços ao longo do tempo para cada ativo. Eles podem ser úteis para entender a variabilidade, tendência central e amplitude dos preços durante o período analisado.
 
-COMPARAÇÃO ENTRE PETR4.SA, PETR3.SA e Dólar/Real:
+## COMPARAÇÃO ENTRE PETR4.SA, PETR3.SA e Dólar/Real:
 
 Criação de gráficos de comparação que mostram como as ações da Petrobras (PETR4.SA e PETR3.SA) estão correlacionadas com o câmbio USD/BRL. 
 
@@ -41,7 +41,7 @@ Observando o padrão das linhas, você pode identificar possíveis padrões de m
 Relações entre Ativos:
 Você pode observar como os preços de PETR4.SA e PETR3.SA se comparam entre si, bem como como esses ativos se comparam ao BOVA11.SA, que é um ETF que replica o desempenho do Ibovespa.
 
-PREVISÃO DAS OSCILAÇÕES DO BOVA11.SA:
+## PREVISÃO DAS OSCILAÇÕES DO BOVA11.SA:
 
 Divisão dos dados do índice BOVA11.SA em conjuntos de treinamento e teste. Utilizando técnicas de previsão de séries temporais, como modelos ARIMA, que é um modelo auto-regressivo integrado de médias móveis é uma generalização de um modelo auto-regressivo de médias móveis, para prever as oscilações futuras desse índice.
 
